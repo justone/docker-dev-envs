@@ -1,4 +1,4 @@
-FROM nate/devpython
+FROM nate/pythondev
 
 RUN apt-get update && apt-get install software-properties-common language-pack-en -y
 

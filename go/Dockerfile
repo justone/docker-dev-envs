@@ -1,4 +1,4 @@
-FROM nate/devbase
+FROM nate/basedev
 
 RUN apt-get install gcc -y
 RUN curl https://storage.googleapis.com/golang/go1.4.2.linux-amd64.tar.gz | tar -C /usr/local -xzf -
