@@ -1,4 +1,4 @@
-.PHONY: build
+.PHONY: image
 
-build:
+image:
 	docker build -t nate/awsdev .
